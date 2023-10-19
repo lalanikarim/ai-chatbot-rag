@@ -11,8 +11,8 @@ need to make some additional tweaks to suit your specific use cases.
 Also, while this code can technically run on a computer without a GPU, running it on a GPU is recommended  
 since the RAG process can be very slow otherwise.  
 
-You will also need to change how you install `llama-cpp-python` package depending on your OS and whether you  
-are planning on using a GPU or not.
+You will also need to change how you install `llama-cpp-python` package depending on your OS and whether  
+you are planning on using a GPU or not.
 
 # TL;DR instructions
 
