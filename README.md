@@ -41,15 +41,11 @@ python -m venv venv
 ```bash
 source venv/bin/activate
 ```
-4. Install `langchain`, `llama.cpp`, and `streamlit`:
+4. Install required modules (`langchain`, `llama.cpp`, and `streamlit` along with `beautifulsoup4`, `pymypdf`, `sentence-transformers`, `docarray`, and `pydantic 1.10.8`):
 ```bash
-pip install langchain llama-cpp-python streamlit
+pip install -r requirements.txt
 ```
-5. Install remaining requirements:
-```bash
-pip install beautifulsoup4 pymupdf sentence-transformers docarray pydantic==1.10.8
-```
-5. Create a subdirectory to place the models in:
+4. Create a subdirectory to place the models in:
 ```bash
 mkdir -p models
 ```
